@@ -80,31 +80,39 @@
                       汇典出行（扎克斯外包项目）
                     </h4>
                     <p class="card-text">
-                      <span>项目描述：</span
-                      >租车公司为了更好方便管理内部事务以及拓展客户群体，和我司合作，开发一套移动端租车平台，并接入公司租车后台系统，需要一套承接这类订单的统计、反馈的管理系统
+                      <span>项目描述：</span>
+                      租车公司为了更好方便管理内部事务以及拓展客户群体，和我司合作，开发一套移动端租车平台，并接入公司租车后台系统，需要一套承接这类订单的统计、反馈的管理系统
                     </p>
                     <p class="card-text">
                       <span>项目成就：</span>
-                      通过本项目，在 Node.js 环境中使用 Express
-                      快速搭建服务框架，在vue框架使用element搭建后台页面实现逻辑交互和状态切换，
+                      通过本项目，在 Node.js 环境中使用 Express快速搭建服务框架，在vue框架使用element搭建后台页面实现逻辑交互和状态切换，
                       使用微信小程序作为移动端，利用极大的流量支撑和海量用户，有利于扩大客户群体，在三个项目互相调配的过程中懂得了前后端之间是如何相互协调互相妥协的，
                       页面是如何与服务端进行交互影响数据变化，移动端上传的数据是如何呈现给后台的。
                     </p>
                     <a
                       class="card-case"
+                      href="https://www.yuque.com/naokotong/kb/uhprlz"
+                      >
+                      我是地址（语雀）
+                    </a>
+                    <a
+                      class="card-case"
                       href="https://github.com/Naoketong/hui-canon_node"
-                      >我是地址（后端）</a
-                    >
+                      >
+                      我是地址（后端）
+                    </a>
                     <a
                       class="card-case"
                       href="https://github.com/Naoketong/hui-canon_vue"
-                      >我是地址（后台样式）</a
-                    >
+                      >
+                      我是地址（后台样式）
+                    </a>
                     <a
                       class="card-case"
                       href="https://github.com/Naoketong/hui-canon_xcx"
-                      >我是地址（移动端）</a
-                    >
+                      >
+                      我是地址（移动端）
+                    </a>
                   </el-card>
                 </div>
               </el-col>
@@ -133,18 +141,20 @@
                     <a
                       class="card-case"
                       href="https://github.com/Naoketong/liuyinshe_nodejs"
-                      >我是地址（后端）</a
-                    >
+                      >
+                      我是地址（后端）
+                    </a>
                     <a
                       class="card-case"
                       href="https://github.com/Naoketong/liuyinshe_vue"
-                      >我是地址（后台样式）</a
-                    >
+                      >
+                      我是地址（后台样式）
+                    </a>
                     <a
                       class="card-case"
                       href="https://github.com/Naoketong/liuyinshe_v1-xcx"
-                      >我是地址（移动端）</a
-                    >
+                      >我是地址（移动端）
+                    </a>
                   </el-card>
                 </div>
               </el-col>
@@ -168,7 +178,9 @@
                     </h4>
                     <p class="card-text">
                       <span>项目描述：</span
-                      >极客学院的信息发布系统，通过后台配置的内容在前台中进行展示，支撑企业的信息发布和信息管理，运营人员会定期发布极客学院的新的动态及技术内容帮助大家及时的掌握前沿技术动态，更好的学习规划。为此需要一套信息管理发布系统来方便对他的内容进行发布、修改、删帖和分类等。
+                      >极客学院的信息发布系统，通过后台配置的内容在前台中进行展示，支撑企业的信息发布和信息管理，
+                      运营人员会定期发布极客学院的新的动态及技术内容帮助大家及时的掌握前沿技术动态，更好的学习规划。
+                      为此需要一套信息管理发布系统来方便对他的内容进行发布、修改、删帖和分类等。
                     </p>
                     <p class="card-text">
                       <span>项目成就：</span>通过本项目，对 Node.js API
