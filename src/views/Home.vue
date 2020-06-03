@@ -174,7 +174,7 @@
                 <div class="grid-content">
                   <el-card>
                     <h4 class="card-title">
-                      信息发布系统（ 极客学院教研项目 ）
+                      信息发布系统
                     </h4>
                     <p class="card-text">
                       <span>项目描述：</span
@@ -201,7 +201,7 @@
                 <div class="grid-content">
                   <el-card>
                     <h4 class="card-title">
-                      销售管理系统（ 极客学院教研项目）
+                      销售管理系统
                     </h4>
                     <p class="card-text">
                       <span>项目描述：</span
@@ -307,7 +307,7 @@
                       class="card-case"
                       href="https://naoketong.github.io/intouch_a/"
                     >
-                      极客学院 因特驰
+                      因特驰
                     </a>
                     <a
                       class="card-case"
@@ -354,7 +354,7 @@
                           <a
                             href="https://naoketong.github.io/intouch_a/"
                             class="panel-item-title"
-                            >因特驰／极客学院</a
+                            >因特驰</a
                           >
                         </li>
                         <li class="panel-item">
@@ -457,7 +457,7 @@
                           <a
                             href="https://naoketong.github.io/jike---wiki/"
                             class="panel-item-title"
-                            >极客 wiki页面</a
+                            >wiki页面</a
                           >
                         </li>
                         <li class="panel-item">
@@ -465,7 +465,7 @@
                           <a
                             href="https://naoketong.github.io/UI-UX-design/"
                             class="panel-item-title"
-                            >极客学院UI/UX就业班</a
+                            >UI/UX就业班</a
                           >
                         </li>
 
@@ -474,7 +474,7 @@
                           <a
                             href="https://naoketong.github.io/University_cooperation/"
                             class="panel-item-title"
-                            >极客学院&山东工商学院</a
+                            >山东工商学院合作</a
                           >
                         </li>
                         <li class="panel-item">
@@ -537,7 +537,7 @@
                           <a
                             href="https://naoketong.github.io/Microsoft-jikexueyuan/"
                             class="panel-item-title"
-                            >微软&极客学院合作</a
+                            >微软&合作</a
                           >
                         </li>
                         <li class="panel-item">
@@ -545,7 +545,7 @@
                           <a
                             href="https://naoketong.github.io/jikexueyuan--zhiye-01/"
                             class="panel-item-title"
-                            >极客学院 职业首页</a
+                            >职业首页</a
                           >
                         </li>
                         <li class="panel-item">
@@ -564,7 +564,7 @@
                           <a
                             href="https://naoketong.github.io/Double-Eleven/"
                             class="panel-item-title"
-                            >阿里云&极客学院 联合举办</a
+                            >阿里云</a
                           >
                         </li>
                         <li class="panel-item">

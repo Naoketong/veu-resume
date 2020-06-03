@@ -38,13 +38,13 @@
         <i class="el-icon-position"></i>
         <span
           >GitHub:
-          <a style="color: #fff" href="https://github.com/Naoketong">点我</a>
+          <a style="color: #F2F6FC;" href="https://github.com/Naoketong">点我</a>
         </span>
       </div>
 
       <div class="user-info-text">
         <i class="el-icon-bank-card"></i>
-        <span>期望月薪：8～10k</span>
+        <span>期望月薪：7～10k</span>
       </div>
     </div>
     <div class="user-info">
