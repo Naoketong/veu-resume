@@ -77,7 +77,7 @@
                 <div class="grid-content">
                   <el-card>
                     <h4 class="card-title">
-                      汇典出行（扎克斯外包项目）
+                      汇典出行
                     </h4>
                     <p class="card-text">
                       <span>项目描述：</span>
@@ -121,7 +121,7 @@
                 <div class="grid-content">
                   <el-card>
                     <h4 class="card-title">
-                      留音社（扎克斯外包项目）
+                      留音社
                     </h4>
                     <p class="card-text">
                       <span>项目描述：</span>留音社是一家位于广州增城的，面向 7
@@ -239,7 +239,7 @@
                 <div class="grid-content">
                   <el-card>
                     <h4 class="card-title">
-                      目标与成就管理系统（ 扎克斯外包项目 ）
+                      目标与成就管理系统
                     </h4>
                     <p class="card-text">
                       <span>项目描述：</span>OKR
@@ -290,7 +290,7 @@
               <el-col :lg="12">
                 <div class="grid-content">
                   <el-card>
-                    <h4 class="card-title">营销活动页（外包项目）</h4>
+                    <h4 class="card-title">营销活动页</h4>
                     <p class="card-text">
                       <span>项目描述：</span
                       >完成营销、活动、专题项目、后台项目的样式和交互、后端API设计和逻辑，服务过的公司有：极客学院、当代家庭教育、留音社等等，主要使用

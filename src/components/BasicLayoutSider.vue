@@ -38,22 +38,20 @@
         <i class="el-icon-position"></i>
         <span
           >GitHub:
-          <a style="color: #F2F6FC;" href="https://github.com/Naoketong">点我</a>
+          <a style="color: #F2F6FC;" href="https://github.com/Naoketong">点我点我</a>
         </span>
       </div>
 
       <div class="user-info-text">
         <i class="el-icon-bank-card"></i>
-        <span>期望月薪：7～10k</span>
+        <span>期望月薪：8～10k</span>
+      </div>
+       <div class="user-info-text">
+        <i class="el-icon-tickets"></i>
+        <span>工作经验：1 ～ 2年</span>
       </div>
     </div>
-    <div class="user-info">
-      <div class="user-info-title">实习经历</div>
-      <div class="user-info-text">
-        <i class="el-icon-office-building"></i>
-        <span>2018 扎克斯科技 - 前端实习</span>
-      </div>
-    </div>
+   
   </el-aside>
 </template>
 
