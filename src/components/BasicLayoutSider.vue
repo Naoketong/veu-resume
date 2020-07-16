@@ -44,11 +44,11 @@
 
       <div class="user-info-text">
         <i class="el-icon-bank-card"></i>
-        <span>期望月薪：8～10k</span>
+        <span>期望月薪：6～8k</span>
       </div>
        <div class="user-info-text">
         <i class="el-icon-tickets"></i>
-        <span>工作经验：1 ～ 2年</span>
+        <span>工作经验： 2年</span>
       </div>
     </div>
    
