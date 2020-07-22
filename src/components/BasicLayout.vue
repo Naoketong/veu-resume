@@ -1,9 +1,9 @@
 <template>
-  <el-container class="h100">
-    <Sider />
-    <el-container>
-      <el-header class="page-header" height="64px">
-        <Header></Header>
+  <el-container :style="style_container" class="h100">
+    <Sider :class="page_sider" :style="sider_width"/>
+    <el-container :style="style_container">
+      <el-header v-show="header" class="page-header" height="64px">
+        <Header ></Header>
       </el-header>
       <el-main class="page-mainer">
         <router-view></router-view>
@@ -20,7 +20,31 @@ import Sider from "./BasicLayoutSider.vue";
 
 export default {
   data() {
-    return {};
+    return {
+      style_container:'',
+      page_sider:'',
+      sider_width:'',
+      header:true,
+    };
+  },
+  created(){
+    this.layout();
+  },
+  methods:{
+    layout(){
+      this.screenWidth = document.body.clientWidth;
+      console.log(this.screenWidth)
+
+      if( this.screenWidth < 500){
+        this.style_container = 'flex-wrap:wrap;'
+        this.page_sider = 'page-siders'
+        this.sider_width = 'width:100%;'
+        this.header = false;
+        console.log('移动端')
+      }else{
+          console.log('PC端')
+      }
+    },
   },
   components: {
     Header,
@@ -31,6 +55,10 @@ export default {
 </script>
 
 <style type="text/css" lang="less">
+html,body{
+  width:100%;
+  height:100%;
+}
 .h100 {
   height: 100vh;
   // background-color: #f0f2f5;
@@ -58,8 +86,15 @@ export default {
     border-right: none;
   }
 }
+.page-siders{
+  width:100%;
+  background-color: #5770ff;
+}
 
 .page-mainer {
   padding: 0;
 }
+
+
+
 </style>

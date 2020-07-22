@@ -602,10 +602,26 @@ export default {
   data() {
     return {
       drawer: false,
-      direction: "rtl"
+      direction: "rtl",
+      home_page:'',
     };
   },
-  methods: {},
+  created(){
+    this.layout();
+  },
+  methods:{
+    layout(){
+      this.screenWidth = document.body.clientWidth;
+
+      if( this.screenWidth < 500){
+        this.home_page = 'home-pages'
+        console.log('移动端')
+      }else{
+        this.home_page = 'home-page'
+          console.log('PC端')
+      }
+    },
+  },
   components: {}
 };
 </script>
@@ -696,6 +712,64 @@ export default {
   }
   .panel-item:nth-child(5n) {
     background-color: #6c708d;
+  }
+}
+
+
+.home-pages {
+  padding: 10px;
+
+  .sub-title {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+
+  .card-title {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .card-text {
+    font-size: 14px;
+    color: #666;
+    margin: 8px 0;
+    span {
+      font-size: 14px;
+      color: #333;
+      font-weight: 600;
+      display: block;
+    }
+  }
+  .card-case {
+    display: inline-block;
+    /* padding:5px; */
+    /* border-radius: 8px; */
+    /* background-color: #409EFF; */
+    /* color:#fff; */
+    font-size: 14px;
+    color: #409eff;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  .card-case-button {
+    color: #fff;
+  }
+  .user-power {
+    list-style: none;
+    font-size:10px;
+    width: 300px;
+  }
+
+  .grid-content {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 2;
+  }
+
+  .el-tag {
+    margin-right: 8px;
   }
 }
 </style>
