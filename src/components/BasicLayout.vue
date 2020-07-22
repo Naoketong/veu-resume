@@ -1,6 +1,6 @@
 <template>
   <el-container :style="style_container" class="h100">
-    <Sider :class="page_sider" :style="sider_width"/>
+    <Sider :style="sider_width"/>
     <el-container :style="style_container">
       <el-header v-show="header" class="page-header" height="64px">
         <Header ></Header>
@@ -22,7 +22,6 @@ export default {
   data() {
     return {
       style_container:'',
-      page_sider:'',
       sider_width:'',
       header:true,
     };
@@ -34,15 +33,13 @@ export default {
     layout(){
       this.screenWidth = document.body.clientWidth;
       console.log(this.screenWidth)
-
       if( this.screenWidth < 500){
         this.style_container = 'flex-wrap:wrap;'
-        this.page_sider = 'page-siders'
         this.sider_width = 'width:100%;'
         this.header = false;
-        console.log('移动端')
+        // console.log('移动端')
       }else{
-          console.log('PC端')
+        // console.log('PC端')
       }
     },
   },

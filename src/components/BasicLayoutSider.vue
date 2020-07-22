@@ -1,5 +1,5 @@
 <template>
-  <el-aside class="page-sider" style="">
+  <el-aside class="page-sider">
     <div class="user-info">
       <div class="user-avatar">
         <img class="user-avatar-png" src="@/assets/avatar-1.png" />
@@ -105,7 +105,7 @@ export default {
       width: 130px;
       height: 130px;
       margin: 0 auto 20px;
-      // box-shadow: 2px 0 8px 0 rgba(29, 35, 41, 0.05);
+      box-shadow: 2px 0 8px 0 rgba(29, 35, 41, 0.05);
       border-radius: 50%;
       background-color: #fff;
     }
@@ -124,57 +124,5 @@ export default {
 }
 a {
   text-decoration: none;
-}
-
-
-.page-siders {
-  position: relative;
-  box-shadow: 2px 0 8px 0 rgba(29, 35, 41, 0.05);
-  transition: all 0.2s ease;
-  // width: 240px;
-  color: #fff;
-  padding: 40px;
-  padding-top: 20px;
-  .user-info {
-    margin: 40px 0;
-    .user-info-title {
-      font-size: 16px;
-      font-weight: 600;
-      margin-bottom: 8px;
-    }
-    .user-info-text {
-      font-size: 14px;
-      line-height: 2;
-      i {
-        margin-right: 8px;
-        vertical-align: middle;
-      }
-      span {
-        vertical-align: middle;
-      }
-    }
-  }
-  .user-avatar {
-    .user-avatar-png {
-      display: block;
-      width: 130px;
-      height: 130px;
-      margin: 0 auto 20px;
-      // box-shadow: 2px 0 8px 0 rgba(29, 35, 41, 0.05);
-      border-radius: 50%;
-      background-color: #fff;
-    }
-  }
-  .user-name {
-    font-size: 24px;
-    font-weight: 500;
-    text-align: center;
-  }
-  .user-status {
-    margin-top: 8px;
-    font-size: 16px;
-    font-weight: 400;
-    text-align: center;
-  }
 }
 </style>
